@@ -3,7 +3,10 @@
 
 ## Write a short comment describing this function
 
+## Assignment 2
+
 makeCacheMatrix <- function(x = matrix()) {
+  lapply(x,mean)
 
 }
 
