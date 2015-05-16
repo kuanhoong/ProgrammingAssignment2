@@ -33,7 +33,10 @@ cacheSolve <- function(mat, ...) {
   return(inverse)
 }
 
-# Example usage:
+################
+## Sample run ##
+################
+
 # > x <- matrix(rnorm(9), nrow = 3)           // Create a matrix x
 # > cx <- makeCacheMatrix(x)                  // Create our special matrix
 # > cx$get()                                  // Return the matrix
